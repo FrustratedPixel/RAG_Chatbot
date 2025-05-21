@@ -23,7 +23,7 @@ A Streamlit application that uses Retrieval Augmented Generation (RAG) to answer
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/document-qa-rag.git
+   git clone https://github.com/FrustratedPixel/RAG_Chatbot.git
    cd document-qa-rag
    ```
 
@@ -45,13 +45,13 @@ A Streamlit application that uses Retrieval Augmented Generation (RAG) to answer
 ## Project Structure
 
 ```
-document-qa-rag/
+RAG_Chatbot/
 ├── app.py                   # Main Streamlit application
 ├── utils/
 │   ├── doc_processor.py     # Document processing utilities
-│   ├── vector_store.py      # Vector database and retrieval functions
+│   ├── vector_store.py      # Vector database
+|   |-- Retrival_sys.py      # Retrival functions
 │   ├── model.py             # LLM model loading and inference
-├── requirements.txt         # Project dependencies
 ├── models/                  # Directory for storing downloaded models
 └── README.md                # Project documentation
 ```
